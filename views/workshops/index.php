@@ -40,7 +40,7 @@ $this->params['breadcrumbs'][] = $this->title;
                     return $model->workshopType ? $model->workshopType->workshop_type : '(не задано)';
                 },
                 'label' => 'Тип цеха',
-                'filter' => \yii\helpers\ArrayHelper::map(\app\models\Workshops::find()->all(), 'id_workshop_type', 'workshop_type'),
+                'filter' => \yii\helpers\ArrayHelper::map(\app\models\WorkshopType::find()->all(), 'id_workshop_type', 'workshop_type'),
             ],
             [
                 'attribute' => 'count_people',

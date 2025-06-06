@@ -110,7 +110,7 @@ class Products extends \yii\db\ActiveRecord
      *
      * @return int
      */
-    public function getTotalmanufacturingTime(): int
+    public function GetTotalManufacturingTimeFuncController(): int
     {
         $totalTime = 0;
 

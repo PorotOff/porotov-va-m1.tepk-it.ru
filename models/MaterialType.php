@@ -43,7 +43,7 @@ class MaterialType extends \yii\db\ActiveRecord
                 'tooBig' => 'Процент не может превышать 100'],
 
             ['percentage_material_losses', 'double',
-                'message' => 'Введите десятичное число (например: 5.25)'],
+                'message' => 'Введите десятичное число (5.25)'],
         ];
     }
 
